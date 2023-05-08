@@ -1,10 +1,77 @@
 body{
+	font-family: "Open Sans", sans-serif;
 	display: flex;
 	flex-direction: column;
 	max-width: 900px;
 	margin: 0 auto;
+	color: #323232;	
 }
 
 nav{
 	display: flex;
+}
+
+#nav-items{
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	margin-left: auto;
+}
+
+.nav-item{
+	padding: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: #323232;	
+	font-weight: 600;
+}
+
+p{	
+	line-height: 1.5;
+}
+
+.about-me-container{
+	display: flex;
+	padding: 10px;
+}
+
+img{
+	overflow-clip-margin: content-box;
+    overflow: clip;
+	max-width: 340px;
+	height: auto;
+}
+
+#projects-items{	
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.project-images{
+	display: none;
+}
+
+#skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fab, .far {
+    font-weight: 400;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
 }

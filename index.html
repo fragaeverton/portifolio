@@ -5,22 +5,74 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Everton Fraga</title>
 	<link rel="stylesheet" href="css/styles.css">
-	<link href="js/main.js">
+	<link rel="stylesheet" href="css/all.min.css">
+	<script src="js/main.js"></script>
 </head>
 <body>
 	<nav>
 		<h2>Everton Fraga</h2>
-		<ul>
-			<li>About Me</li>
-			<li>Projects</li>
-			<li>Skills</li>
-			<li>Contact</li>
+		<ul id="nav-items">
+			<li class="nav-item">
+				<a href="#about-me">About Me</a>
+			</li>
+			<li class="nav-item">
+				<a href="#projects">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a href="#skills">Skills</a>
+			</li>
+			<li class="nav-item">
+				<a href="#contact">Contact</a>
+			</li>
 		</ul>
 	</nav>
 	<main>
-		<section>
-
+		<section id="about-me">
+			<div class="about-me-container">
+				<div class="about-me-text-container">
+					<h2>About Me</h2>
+					<p>Hi! I'm Everton, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.</p>
+					<p>I am one of the first to recognize that machines have applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine.</p>
+					<p>In my free time I like to read about scientific developments, mathematics, and computational mathematics. I also like to take my chances of winning big.</p>
+					<p>Fun fact! I've been programing for <span id="timing"></span> seconds!</p>
+				</div>
+				<img src="https://www.corporatephotographerslondon.com/wp-content/uploads/2016/06/London-LinkedIn-Headshot.jpg" alt="Everton's photo">
+			</div>
 		</section>
+		<section id="projects">			
+			<div class="projects-container">
+				<h2>Projects</h2>
+				<ul id="projects-items">
+					<li id="first-project">The first computer program</li>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg" alt="Lovelace's diagram from note G, the first published computer
+          algorithm" id="pic-one" class="project-images">
+					<li id="second-project">The Analytical Engine</li>
+					<img src="https://images2.minutemediacdn.com/image/upload/c_fit,f_auto,fl_lossy,q_auto,w_728/v1555925585/shape/mentalfloss/analyticalmachine_babbage_london.jpg?itok=5vRTwQjb" alt="An original model of part of the Analytical Engine" id="pic-two" class="project-images">
+					<li id="third-project">The Everton programming language</li>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ada_Mascot_with_slogan.svg/220px-Ada_Mascot_with_slogan.svg.png" alt="Ada mascot, a black and cobalt blue hummingbird, flying above the
+          slogan &quot;Time-tested, safe and secure&quot;" id="pic-three" class="project-images">
+				</ul>
+			</div>
+		</section>
+		<section id="skills">
+			<h2>Skills</h2>
+			<div id="skills-container">
+			  <!--<i class="fab fa-html5"></i>
+			  <i class="fab fa-css3-alt"></i>
+			  <i class="fab fa-js"></i>
+			  <i class="fab fa-react"></i>
+			  <i class="fab fa-aws"></i>
+			  <i class="fab fa-sketch"></i>
+			  <i class="fab fa-figma"></i>
+			  <i class="fab fa-git"></i>
+			  <i class="fab fa-chrome"></i>
+			  <i class="fas fa-terminal"></i>
+			  <i class="fas fa-universal-access"></i>
+			  <i class="fab fa-npm"></i>
+			  <i class="fab fa-node"></i>
+			  <i class="fab fa-github"></i>-->
+			</div>
+		  </section>
 	</main>
 	<footer></footer>
 </body>
